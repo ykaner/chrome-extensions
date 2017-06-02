@@ -10,7 +10,12 @@
       "js": [ "google fagots.js" ],
       "matches": [ "https://www.google.co.il/_/chrome/newtab*" ],
       "run_at": "document_end"
-    }
+    }, 
+	{
+		"js": [ "google fagots search.js" ],
+		"matches": [ "https://www.google.co.il/search*", "https://www.google.com/search*" ],
+		"run_at": "document_end"
+	}
   ],
 
     "permissions" :
